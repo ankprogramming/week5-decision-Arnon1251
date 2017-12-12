@@ -58,7 +58,8 @@ int main () {
       cout << "You stole money from people. Now you can shopping.";
       break;
     }
-
+  cout << "Walk to the pastry shop.";
+  cout << "What should you do? : ";
 
   // ฝึกสร้างสถานการณ์และสร้างเงื่อนไข อีก 2 สถานการณ์
 
