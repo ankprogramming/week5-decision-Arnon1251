@@ -58,8 +58,24 @@ int main () {
       cout << "You stole money from people. Now you can shopping.";
       break;
     }
+    //สถานการณที่ 2
   cout << "Walk to the pastry shop.";
-  cout << "What should you do? : ";
+  cout << "What should you do? (A) Walk into the shop to buy Cookies., (S) Do not buy : ";
+
+   cin >> choice1;
+
+  switch(choice1) {
+  case 'A' :
+      score += 60;
+      cout << "You bought a cooklie 120 baht. And go home happily.";
+      break;
+  case 'S' :
+      score += 10;
+      life -= 1;
+      cout << "Go home";
+      break;
+    }
+
 
   // ฝึกสร้างสถานการณ์และสร้างเงื่อนไข อีก 2 สถานการณ์
 
